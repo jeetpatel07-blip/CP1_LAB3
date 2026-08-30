@@ -14,15 +14,14 @@ int main ()
        scanf("%d",&b);
 
        if(b!=1 && b!=2)
-       {printf("enter a valid input\n");
+       {
+        printf("enter a valid input\n");
         printf("enter your sex code (roll no :%d):",a);
         scanf("%d",&b);
             if (b==1)
                 c++;
             if (b==2)
                 d++;
-
-
         }
        else if (b==1)
         {c++;}
