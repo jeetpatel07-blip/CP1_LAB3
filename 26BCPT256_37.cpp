@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+
+{
+    int a,b, c = 0 ;
+    printf("write the value of n : ");
+    scanf("%d",&b);
+
+
+    for(a=1;a<=(b);a++)
+    {
+        c = c + a ;
+
+
+
+    }
+printf("the sum of first n natural number : %d",c);
+
+return 0 ;
+
+}
