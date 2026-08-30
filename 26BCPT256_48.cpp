@@ -31,11 +31,7 @@ int main ()
         {d++;}
 
 
-
        }
-
-
-
 
 
 printf("no of boys in the classroom: %d\n",c);
