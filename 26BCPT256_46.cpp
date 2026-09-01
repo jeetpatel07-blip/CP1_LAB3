@@ -3,7 +3,7 @@ int main ()
 
 {
     int a,b=0,d,c=d;
-    printf("------LARGEST AMONG 100 NUMBERS------\n\n\n\n");
+    printf("------LARGEST AND SMALLEST AMONG 100 NUMBERS------\n\n\n\n");
 
     for (a=1;a<=5;a++)
     {
