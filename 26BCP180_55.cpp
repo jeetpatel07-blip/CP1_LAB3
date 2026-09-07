@@ -1,27 +1,33 @@
 #include <stdio.h>
-int main ()
 
+int main()
 {
-    int a,b,c,d,e;
-
-    printf("enter the number of your choice: ");
-
-    scanf("%d",&a);
-    c=a;
+    int a, b, c = 0, d;
 
 
-    for(;a!=0;a=a/10)
-    {
+    printf("Enter an integer: ");
+    scanf("%d", &a);
 
-        b=a%10;
-        d=b*10+a;
-    }
 
-printf("\n\n");
-    if(d==c)
-        printf("the value is palindrome\n\n");
+    b = a;
+
+
+    while (a != 0)
+        {
+            d = a % 10;
+            c = c * 10 + d;
+            a=a/10;
+        }
+
+
+    if (b == c)
+        {
+            printf("%d is a palindrome number.\n", b);
+        }
     else
-        printf("the value is not a palindrome\n\n");
-return 0 ;
+        {
+            printf("%d is not a palindrome number.\n", b);
+        }
 
+    return 0;
 }
